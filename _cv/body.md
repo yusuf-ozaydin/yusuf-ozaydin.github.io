@@ -1,11 +1,11 @@
 <div class="cv-header">
-  <p class="cv-headline">Systems engineering student at GW · operations research and human-centered design <span class="pronouns">(he/him)</span></p>
+  <p class="cv-headline">Systems engineering student at GW · systems, software, and operations research <span class="pronouns">(he/him)</span></p>
   <p class="cv-contact">Washington, DC · <a href="mailto:yusuf.ozaydin@gwmail.gwu.edu">yusuf.ozaydin@gwmail.gwu.edu</a> · <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/yusuf-ozaydin">LinkedIn</a> · <a target="_blank" rel="noopener noreferrer" href="https://github.com/yusuf-ozaydin">GitHub</a> · U.S. Citizen</p>
-  <p class="cv-summary">Yusuf Ozaydin studies systems engineering at the George Washington University, minoring in mathematics and computer science and graduating in 2028. His focus is operations research and human-centered design. At UAB he helped model patient flow through an emergency department; at GW he builds Paceometer, a driving app that shows drivers their pace instead of their speed. He is looking for a summer 2027 internship in operations research or data analysis.</p>
+  <p class="cv-summary">Yusuf Ozaydin studies systems engineering at the George Washington University, minoring in mathematics and computer science and graduating in 2028. He works across systems engineering and software, with a pull toward operations research and human-centered design. At UAB he helped model patient flow through an emergency department; at GW he builds Paceometer, a driving app that shows drivers their pace instead of their speed. He is looking for a summer 2027 internship in systems engineering or software development.</p>
 </div>
 
 ::: {.cv-synced}
-Last synced 2 September 2026.
+Last synced 1 September 2026.
 :::
 
 ## Education
@@ -62,7 +62,7 @@ Last synced 2 September 2026.
     <li>Designing and building a driving app (a progressive web app in HTML, CSS, and JavaScript) that updates in real time and shows pace next to speed. It works against a well-documented bias where drivers overestimate the time they gain by speeding.</li>
     <li>Found that the original percentage-based trip metric inverted at highway speeds, climbing toward 100% and in effect telling drivers to go faster, and replaced it with a seconds-behind-pace calculation from the underlying t = d/v relationship.</li>
     <li>Ran a WCAG AA accessibility audit with Lighthouse and axe-core: fixed contrast failures as low as 1.28:1 against a 3:1 minimum, added screen-reader announcements, labeled inputs, and reduced-motion support, and brought the app to 100/100 in Lighthouse with zero axe violations.</li>
-    <li>Wrote the supporting literature review on time-saving bias, speed and crash risk, and dashboard design. The app keeps all GPS processing on the device, and is now in pilot testing.</li>
+    <li>Wrote the supporting literature review on time-saving bias, speed and crash risk, and dashboard design. The app keeps all GPS processing on the device; it is in active development.</li>
   </ul>
 <div class="project-links">
   <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://yusuf-ozaydin.github.io/paceometer-app/">App</a>

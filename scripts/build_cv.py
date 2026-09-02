@@ -176,13 +176,21 @@ def by_sort(rows: list[dict[str, str]]) -> list[dict[str, str]]:
     return sorted(rows, key=key)
 
 
+_WS = re.compile(r"\s+")
+
+
+def ws(s: str) -> str:
+    """Collapse runs of whitespace (incl. stray newlines from Sheets cells)."""
+    return _WS.sub(" ", (s or "")).strip()
+
+
 def split_items(text: str) -> list[str]:
-    return [b.strip() for b in BULLET_SPLIT.split(text or "") if b.strip()]
+    return [ws(b) for b in BULLET_SPLIT.split(text or "") if b.strip()]
 
 
 def txt(s: str) -> str:
-    """Escape for HTML body text (leave quotes/apostrophes as-is)."""
-    return escape(s, quote=False)
+    """Collapse whitespace, then escape for HTML body text."""
+    return escape(ws(s), quote=False)
 
 
 PLACEHOLDER_DATES = {"", "date unknown", "unknown", "tbd", "n/a", "-"}
