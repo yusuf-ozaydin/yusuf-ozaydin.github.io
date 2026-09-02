@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" role="img" aria-label="Speedometer gauge">
+  <rect width="320" height="190" fill="#eef2f7"/>
+  <g stroke="#1e3a5f" fill="none" stroke-linecap="round">
+    <path d="M70 140 A 90 90 0 0 1 250 140" stroke-width="3" opacity="0.5"/>
+    <g stroke-width="2.5" opacity="0.34">
+      <g transform="rotate(-90 160 140)"><line x1="160" y1="50" x2="160" y2="66"/></g>
+      <g transform="rotate(-60 160 140)"><line x1="160" y1="50" x2="160" y2="66"/></g>
+      <g transform="rotate(-30 160 140)"><line x1="160" y1="50" x2="160" y2="66"/></g>
+      <g transform="rotate(0 160 140)"><line x1="160" y1="50" x2="160" y2="66"/></g>
+      <g transform="rotate(30 160 140)"><line x1="160" y1="50" x2="160" y2="66"/></g>
+      <g transform="rotate(60 160 140)"><line x1="160" y1="50" x2="160" y2="66"/></g>
+      <g transform="rotate(90 160 140)"><line x1="160" y1="50" x2="160" y2="66"/></g>
+    </g>
+    <line x1="160" y1="140" x2="112" y2="78" stroke-width="3.5" opacity="0.8"/>
+  </g>
+  <circle cx="160" cy="140" r="6" fill="#1e3a5f" opacity="0.8"/>
+</svg>

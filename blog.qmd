@@ -1,0 +1,17 @@
+---
+title: "Writing"
+page-layout: article
+toc: false
+# When the first post exists in blog/posts/, add this back to the front matter
+# and add a "Writing" nav item in _quarto.yml:
+#
+# listing:
+#   contents: blog/posts
+#   type: default
+#   sort: "date desc"
+#   fields: [date, title, description, reading-time]
+#   feed: true
+#   categories: true
+---
+
+Nothing here yet. Draft posts live in `blog/drafts/` and are not built.

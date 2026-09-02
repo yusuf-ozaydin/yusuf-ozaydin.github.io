@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+
+$primary:        #8fb3d9;
+$body-bg:        #1a1f24;
+$body-color:     #d7dde3;
+$link-color:     #8fb3d9;
+$navbar-bg:      #14181c;
+$navbar-fg:      #d7dde3;
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$headings-font-family:   "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-weight:   600;
+$h1-font-size:            2.3rem;
+$h2-font-size:            1.45rem;
+
+/*-- scss:rules --*/
+
+body { line-height: 1.62; }
+
+.navbar {
+  border-bottom: 1px solid #2b333b;
+  box-shadow: none;
+}
+.navbar-brand {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 600;
+}
+
+h1, h2, h3, h4 { letter-spacing: -0.005em; }
+h1 { line-height: 1.15; }
+
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #2b333b;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.nav-footer { border-top: 1px solid #2b333b; font-size: 0.85rem; }

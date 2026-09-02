@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" role="img" aria-label="Network graph">
+  <rect width="320" height="190" fill="#eef2f7"/>
+  <g stroke="#1e3a5f" stroke-width="2" opacity="0.3">
+    <line x1="58" y1="52" x2="132" y2="96"/>
+    <line x1="132" y1="96" x2="90" y2="150"/>
+    <line x1="132" y1="96" x2="212" y2="60"/>
+    <line x1="212" y1="60" x2="268" y2="112"/>
+    <line x1="212" y1="60" x2="238" y2="146"/>
+    <line x1="90" y1="150" x2="176" y2="158"/>
+    <line x1="176" y1="158" x2="238" y2="146"/>
+    <line x1="268" y1="112" x2="238" y2="146"/>
+  </g>
+  <g fill="#1e3a5f" opacity="0.52">
+    <circle cx="58" cy="52" r="7"/>
+    <circle cx="132" cy="96" r="10"/>
+    <circle cx="90" cy="150" r="7"/>
+    <circle cx="212" cy="60" r="8"/>
+    <circle cx="268" cy="112" r="7"/>
+    <circle cx="238" cy="146" r="7"/>
+    <circle cx="176" cy="158" r="6"/>
+  </g>
+</svg>

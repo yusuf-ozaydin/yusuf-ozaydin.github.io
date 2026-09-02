@@ -1,0 +1,5 @@
+{
+  "_comment": "Google Sheet feeding the CV. 'sheet' accepts a full Google Sheets URL (edit, /pubhtml, or /pub) or a bare id. A '/d/e/2PACX-...' value uses the Publish-to-web export; a plain sheet id uses the gviz export and needs link-sharing on. Empty = build from the local data/cv/*.csv files.",
+  "sheet": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSeoRH5tZk7DcE8lZR_MOe3w0MF5x6stcrckYxWEZCn2yK4Qla8uQbnCmDjiWSekh4Yp7-rsf4iC5FQ/pubhtml",
+  "tabs": ["profile", "education", "experience", "projects", "activities", "skills"]
+}

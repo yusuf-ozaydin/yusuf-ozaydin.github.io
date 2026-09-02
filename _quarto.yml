@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "!blog/drafts/"
+
+website:
+  title: "Yusuf Ozaydin"
+  description: "Systems engineering student at GW working on operations research and human-centered design."
+  site-url: "https://yusuf-ozaydin.github.io"
+  favicon: favicon.svg
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: "https://github.com/yusuf-ozaydin"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/yusuf-ozaydin"
+        aria-label: LinkedIn
+      - icon: spotify
+        href: "https://open.spotify.com/user/sheefanur"
+        aria-label: Spotify
+      - icon: envelope
+        href: "mailto:yusuf.ozaydin@gwmail.gwu.edu"
+        aria-label: Email
+  page-footer:
+    left: "&copy; 2026 Yusuf Ozaydin"
+    right: "Built with [Quarto](https://quarto.org)."
+  twitter-card: true
+  open-graph: true
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [cosmo, theme-dark.scss]
+    css: custom.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header: _includes/head.html
+    include-after-body: _includes/enhance.html
+    grid:
+      body-width: 900px

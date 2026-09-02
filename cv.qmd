@@ -1,0 +1,10 @@
+---
+title: "Yusuf Ozaydin"
+pagetitle: "CV"
+page-layout: article
+toc: true
+toc-location: right
+toc-title: "On this page"
+---
+
+{{< include /_cv/body.md >}}

@@ -1,0 +1,45 @@
+---
+title: "Paceometer"
+description: "A real-time driving app that shows pace instead of speed. An independent research project at GW, now in pilot testing."
+categories: [JavaScript, PWA, Accessibility, Research]
+image: /images/covers/paceometer.svg
+image-alt: "Speedometer gauge illustration"
+weight: 1
+---
+
+::: {.back-nav}
+[&larr; All projects](/projects.qmd)
+:::
+
+Drivers consistently overestimate how much time they save by speeding. The effect is
+well documented and it gets worse at higher speeds, which is exactly where the extra
+risk is. Paceometer is a progressive web app that tries a different framing: instead of
+a large speed number, it shows how many seconds you are behind an efficient pace for
+the trip.
+
+It started as a project a GW professor proposed to me. I have done the build and the
+research, with him advising, and he is now seeking funding to bring it into his lab. It
+is in pilot testing.
+
+### What I did
+
+- Designed and built the app in plain HTML, CSS, and JavaScript, with all GPS
+  processing kept on the device so no location data leaves the phone.
+- Found that the original percentage-based trip metric inverted at highway speeds. It
+  climbed toward 100 percent and in effect told drivers to go faster. I replaced it with
+  a calculation of how many seconds you are behind an efficient pace, from the
+  underlying `t = d / v` relationship.
+- Ran a WCAG AA accessibility audit with Lighthouse and axe-core. I fixed contrast
+  failures as low as 1.28:1 against a 3:1 minimum and added screen-reader
+  announcements, labeled inputs, and reduced-motion support. The app now scores 100/100
+  in Lighthouse with zero axe violations.
+- Wrote the supporting literature review on time-saving bias, the link between speed and
+  crash risk, and dashboard design. It keeps the parameters that come from published
+  research separate from the design choices specific to this app.
+
+::: {.project-links}
+[Literature review](https://raw.githack.com/yusuf-ozaydin/paceometer/refs/heads/main/paceometer_review.html){.btn .btn-sm .btn-outline-primary}
+[Open the app](https://yusuf-ozaydin.github.io/paceometer-app/){.btn .btn-sm .btn-outline-primary}
+[App code](https://github.com/yusuf-ozaydin/paceometer-app){.btn .btn-sm .btn-outline-primary}
+[Review code](https://github.com/yusuf-ozaydin/paceometer){.btn .btn-sm .btn-outline-primary}
+:::

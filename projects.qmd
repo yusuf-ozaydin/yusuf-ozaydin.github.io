@@ -1,0 +1,37 @@
+---
+title: "Projects"
+toc: false
+listing:
+  id: project-list
+  contents:
+    - "projects/*.qmd"
+  type: default
+  sort: "weight asc"
+  fields: [image, title, description, categories]
+  field-display-names:
+    categories: "Built with"
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  date-format: "MMMM YYYY"
+---
+
+A few things I have built or am building. The coursework and research projects without
+public code are at the bottom.
+
+::: {#project-list}
+:::
+
+## Coursework and research
+
+**Workout Tracking Application** (Vrije Universiteit Amsterdam, spring 2026). The
+semester deliverable for the Software Design course, built in Java by a multinational
+student team. I wrote the logic that turns a JSON exercise catalog into a workout plan,
+following a formal design process of requirements specification, design patterns, and
+iterative review.
+
+**Emergency department overcrowding research** (UAB Department of Health Services
+Administration, summer 2025). I worked in Dr. Abdulaziz Ahmed's group on a federally
+funded project to predict and simulate emergency-department overcrowding. I cleaned and
+harmonized hospital datasets for feature engineering, prepared and debugged the Python
+pipeline, and helped tune the machine-learning models.

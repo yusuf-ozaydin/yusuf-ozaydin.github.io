@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" role="img" aria-label="Progression chart">
+  <rect width="320" height="190" fill="#eef2f7"/>
+  <g fill="#1e3a5f" opacity="0.24">
+    <rect x="44"  y="112" width="28" height="52"/>
+    <rect x="88"  y="98"  width="28" height="66"/>
+    <rect x="132" y="104" width="28" height="60"/>
+    <rect x="176" y="80"  width="28" height="84"/>
+    <rect x="220" y="66"  width="28" height="98"/>
+    <rect x="264" y="48"  width="28" height="116"/>
+  </g>
+  <polyline points="58,110 102,96 146,102 190,78 234,64 278,46"
+            fill="none" stroke="#1e3a5f" stroke-width="3" opacity="0.72"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="34" y1="164" x2="300" y2="164" stroke="#1e3a5f" stroke-width="2" opacity="0.3"/>
+</svg>

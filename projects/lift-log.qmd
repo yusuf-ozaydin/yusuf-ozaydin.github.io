@@ -1,0 +1,31 @@
+---
+title: "Lift Log"
+description: "A progressive web app for tracking a Push/Pull/Legs workout split and weekly progression."
+categories: [TypeScript, PWA]
+image: /images/covers/lift-log.svg
+image-alt: "Workout progression chart illustration"
+weight: 3
+---
+
+::: {.back-nav}
+[&larr; All projects](/projects.qmd)
+:::
+
+Lift Log is a workout tracker I built for my own training and kept refining. It logs a
+Push/Pull/Legs/Upper/Lower split, tracks progression week to week, and exports sessions
+as plain text or JSON.
+
+### What I did
+
+- Made logging fast: picking a split day copies the previous session's exercises and
+  weights as a template and leaves the rep counts blank.
+- Wrote the progression logic. It suggests a weight increase when the last session's
+  sets all hit eight or more reps, or when estimated one-rep max has climbed, and it
+  marks exercises that have stalled across several sessions.
+- Kept everything local. Data lives in browser storage with no account or sync, backed
+  up through JSON export. The build deploys to GitHub Pages on every push to `main`.
+
+::: {.project-links}
+[Open the app](https://yusuf-ozaydin.github.io/lift-log/){.btn .btn-sm .btn-outline-primary}
+[Code](https://github.com/yusuf-ozaydin/lift-log){.btn .btn-sm .btn-outline-primary}
+:::

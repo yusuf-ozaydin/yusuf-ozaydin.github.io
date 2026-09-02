@@ -1,0 +1,13 @@
+---
+title: "First post"
+description: "A placeholder while I decide what this section is for."
+date: "2026-09-01"
+categories: [meta]
+draft: true
+---
+
+Placeholder. Replace this with the first real post before linking the writing section
+from the navbar.
+
+Good candidates: a shorter writeup of the Paceometer literature review, notes on the
+seconds-behind-pace metric, or something from the ED overcrowding work.

@@ -1,0 +1,34 @@
+---
+title: "Music Graph"
+description: "A Python pipeline that turns a Spotify library into a graph of songs linked by shared artists, genres, albums, and playlists."
+categories: [Python, Data, "In progress"]
+image: /images/covers/music-graph.svg
+image-alt: "Network graph illustration"
+weight: 2
+---
+
+::: {.back-nav}
+[&larr; All projects](/projects.qmd)
+:::
+
+Music Graph is an ongoing personal project: my Spotify library drawn as a graph. Songs
+are nodes, and an edge connects two tracks that share an artist, genre, album, or
+playlist. The idea came from a Wikipedia network visualization built with igraph and
+Leiden community detection; the pipeline and design here are my own.
+
+### What I did
+
+- Designed the data pipeline in Python. The current library has 7,990 unique tracks.
+- Built a three-layer lookup for each artist's genres, to work around Spotify's API
+  rate limits: Spotify's top-artist data first, then MusicBrainz ISRC lookups, then a
+  rate-limited Spotify fallback. It checks name matches so multi-artist tracks are not
+  mis-resolved, and caches results to local JSON so re-runs never hit the API again.
+
+### Where it is going
+
+Next up are Leiden community detection, a Gephi layout, and a web explorer that other
+people can point at their own Spotify accounts.
+
+::: {.project-links}
+[Code](https://github.com/yusuf-ozaydin/music_graph){.btn .btn-sm .btn-outline-primary}
+:::

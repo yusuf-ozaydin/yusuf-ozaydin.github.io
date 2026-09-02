@@ -1,0 +1,11 @@
+/_site/
+/.quarto/
+*.html.orig
+.DS_Store
+__pycache__/
+
+# Personal / working documents — never commit
+*.pdf
+data/cv/*.pdf
+data/cv/QUESTIONS.md
+data/cv/NOTES.md

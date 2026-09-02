@@ -1,0 +1,7 @@
+freeze: auto
+page-layout: article
+title-block-banner: false
+toc: true
+
+execute:
+  echo: false
