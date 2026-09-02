@@ -49,26 +49,16 @@
 .btn-row { margin: 1.5rem 0 0.5rem; }
 .btn-row .btn { margin-right: 0.6rem; margin-bottom: 0.5rem; }
 
-/* ---- Project detail: back link ---- */
-.back-nav {
-  margin: -0.75rem 0 1.75rem;
-}
-.back-nav p { margin: 0; }
-.back-nav a {
+/* ---- Project detail: back link (above the title) ---- */
+.back-nav-top {
   display: inline-block;
-  padding: 0.28rem 0.7rem;
-  border: 1px solid #d4d8dc;
-  border-radius: 6px;
-  font-size: 0.82rem;
+  margin: 0.25rem 0 1.75rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: #56606b;
 }
-.back-nav a:hover {
-  color: var(--bs-primary);
-  border-color: var(--bs-primary);
-  text-decoration: none;
-}
-.quarto-dark .back-nav a { color: #9aa4b0; border-color: #3a434c; }
+.back-nav-top:hover { color: var(--bs-primary); text-decoration: none; }
+.quarto-dark .back-nav-top { color: #9aa4b0; }
 
 /* ---- Project detail link buttons ---- */
 .project-links {

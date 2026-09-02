@@ -7,10 +7,6 @@ image-alt: "Network graph illustration"
 weight: 2
 ---
 
-::: {.back-nav}
-[&larr; All projects](/projects.qmd)
-:::
-
 Music Graph is an ongoing personal project: my Spotify library drawn as a graph. Songs
 are nodes, and an edge connects two tracks that share an artist, genre, album, or
 playlist. The idea came from a Wikipedia network visualization built with igraph and

@@ -7,10 +7,6 @@ image-alt: "Speedometer gauge illustration"
 weight: 1
 ---
 
-::: {.back-nav}
-[&larr; All projects](/projects.qmd)
-:::
-
 Drivers consistently overestimate how much time they save by speeding. The effect is
 well documented and it gets worse at higher speeds, which is exactly where the extra
 risk is. Paceometer is a progressive web app that tries a different framing: instead of

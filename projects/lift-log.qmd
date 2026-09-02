@@ -7,10 +7,6 @@ image-alt: "Workout progression chart illustration"
 weight: 3
 ---
 
-::: {.back-nav}
-[&larr; All projects](/projects.qmd)
-:::
-
 Lift Log is a workout tracker I built for my own training and kept refining. It logs a
 Push/Pull/Legs/Upper/Lower split, tracks progression week to week, and exports sessions
 as plain text or JSON.
