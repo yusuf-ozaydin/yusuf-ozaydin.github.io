@@ -9,14 +9,16 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write   # allow the CV-refresh commit back to main
+  pages: write
+  id-token: write
 
 concurrency:
   group: publish
   cancel-in-progress: false
 
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Check out
@@ -31,6 +33,7 @@ jobs:
         run: python scripts/build_cv.py
 
       - name: Commit refreshed CV data
+        if: github.event_name != 'pull_request'
         run: |
           if ! git diff --quiet -- data/cv _cv; then
             git config user.name  "github-actions[bot]"
@@ -45,10 +48,24 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and publish to GitHub Pages
-        uses: quarto-dev/quarto-actions/publish@v2
+      - name: Render site
+        run: quarto render
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          target: gh-pages
-          render: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
