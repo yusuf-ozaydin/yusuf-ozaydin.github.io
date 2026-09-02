@@ -1,7 +1,7 @@
 ---
 title: ""
 pagetitle: "Yusuf Ozaydin"
-description-meta: "Systems engineering student at George Washington University working on operations research and human-centered design."
+description-meta: "Systems engineering student at George Washington University working on systems and software, with an operations-research lean."
 toc: false
 ---
 
@@ -12,7 +12,7 @@ toc: false
 # Yusuf Ozaydin
 
 ::: {.headline}
-Systems engineering student at GW · operations research and human-centered design [(he/him)]{.pronouns}
+Systems engineering student at GW · systems, software, and operations research [(he/him)]{.pronouns}
 :::
 
 ::: {.hero-links}
@@ -24,10 +24,11 @@ Systems engineering student at GW · operations research and human-centered desi
 :::
 
 I'm a systems engineering student at George Washington University, with minors in
-mathematics and computer science. I work on operations research and human-centered
-design, and I like problems where the math and the person using the result both matter.
+mathematics and computer science. Most of what I do is systems engineering and software,
+with a steady pull toward operations research and the human side of a system. I like
+problems where the math and the person acting on the result both matter.
 
-I'm looking for a summer 2027 internship in operations research or data analysis.
+I'm looking for a summer 2027 internship in systems engineering or software development.
 
 ::: {.btn-row}
 [Projects](projects.qmd){.btn .btn-primary}
@@ -49,7 +50,8 @@ plain speedometer quietly rewards going faster and drivers already overestimate 
 they save by speeding. I found a trip metric that inverted at highway speeds and
 replaced it, wrote the supporting
 [literature review](https://raw.githack.com/yusuf-ozaydin/paceometer/refs/heads/main/paceometer_review.html),
-and ran the interface through a WCAG accessibility audit. It is in pilot testing now.
+and ran the interface through a WCAG accessibility audit. It is still in active
+development.
 
 Smaller things fill the rest of my time.
 [Music Graph](projects/music-graph.qmd) turns my Spotify library into a network of songs

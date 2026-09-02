@@ -1,6 +1,6 @@
 ---
 title: "Paceometer"
-description: "A real-time driving app that shows pace instead of speed. An independent research project at GW, now in pilot testing."
+description: "A real-time driving app that shows pace instead of speed. An independent research project at GW, in active development."
 categories: [JavaScript, PWA, Accessibility, Research]
 image: /images/covers/paceometer.svg
 image-alt: "Speedometer gauge illustration"
@@ -18,8 +18,8 @@ a large speed number, it shows how many seconds you are behind an efficient pace
 the trip.
 
 It started as a project a GW professor proposed to me. I have done the build and the
-research, with him advising, and he is now seeking funding to bring it into his lab. It
-is in pilot testing.
+research, with him advising, and he is looking into funding to bring it into his lab.
+The app is still in active development.
 
 ### What I did
 

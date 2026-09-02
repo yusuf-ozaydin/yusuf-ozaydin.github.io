@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Yusuf Ozaydin"
-  description: "Systems engineering student at GW working on operations research and human-centered design."
+  description: "Systems engineering student at GW working on systems and software, with an operations-research lean."
   site-url: "https://yusuf-ozaydin.github.io"
   favicon: favicon.svg
   navbar:
