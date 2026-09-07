@@ -5,7 +5,7 @@
 </div>
 
 ::: {.cv-synced}
-Last synced 2 September 2026.
+Last synced 7 September 2026.
 :::
 
 ## Education
