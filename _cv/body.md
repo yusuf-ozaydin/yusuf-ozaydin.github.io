@@ -5,7 +5,7 @@
 </div>
 
 ::: {.cv-synced}
-Last synced 7 September 2026.
+Last synced 14 September 2026.
 :::
 
 ## Education
@@ -114,7 +114,7 @@ Last synced 7 September 2026.
 
 <p><strong>Programming:</strong> Java, Python (pandas, NumPy, Matplotlib), R (proficient); C, JavaScript, HTML/CSS (familiar)</p>
 <p><strong>Tools:</strong> Git/GitHub, Quarto, Playwright, Excel, Adobe Illustrator and Photoshop, RobotC</p>
-<p><strong>Methods:</strong> Operations research and optimization, graph theory, statistical modeling, software design principles, human-centered design, WCAG accessibility</p>
+<p><strong>Methods:</strong> Operations research and optimization, graph theory, statistical modeling, software design principles, human-centered design</p>
 <p><strong>Learning:</strong> SQL and databases (LinkedIn Learning: SQL Essential Training), Gurobi, LaTeX, Docker</p>
 <p><strong>Spoken languages:</strong> English (native), Turkish (native), French (conversational)</p>
 
