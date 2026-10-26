@@ -1,0 +1,46 @@
+---
+title: "NYC Subway Safety Analysis"
+description: "An R analysis of whether the New York City subway is as unsafe as its reputation, using six public MTA, NYPD, and NYC Open Data datasets. A team course project at GW."
+categories: [R, ggplot2, Data visualization]
+image: /images/covers/nyc-subway.svg
+image-alt: "Line chart illustration"
+weight: 2
+---
+
+The New York City subway has a reputation for being dangerous. For the Exploratory Data
+Analysis course at GW (Prof. John Helveston, fall 2025), four of us tested that
+reputation against six public datasets from the MTA, the NYPD, and NYC Open Data, all
+analyzed in R.
+
+The short answer was that riding the subway is safer than the reputation suggests.
+Once crime is measured per rider rather than in raw counts, the risk on any one trip is
+low, and service breakdowns turned out to have only a weak link to crime.
+
+### What I did
+
+- Normalized subway crime by ridership. Raw felony counts fell in 2020, but ridership
+  fell much faster, so the per-rider rate briefly spiked. Measuring crime per million
+  riders separates that effect from any real change in safety.
+- Tested whether a breakdown-heavy month is also a high-crime month. I totaled the
+  MTA's signal, track, and subway-car incidents by month, joined them to monthly felony
+  counts on the subway, and fit a linear trend. The correlation was weak (r = 0.23).
+- Built both charts below in ggplot2, using the tidyverse for the cleaning and joins.
+- With the team, compared subway crime with citywide crime and traffic crashes, and
+  mapped shootings within 40 meters of each station in Leaflet.
+
+### My charts
+
+![Major felonies per million subway riders, by month.](/images/projects/nyc-subway-crime-per-million.png){fig-alt="Line chart of total major felonies per million MTA riders by month, 2019 to 2025. The rate sits around 3 to 4 before 2020, spikes to about 33 in spring 2020 as ridership collapses, then fluctuates mostly between 5 and 20, with occasional spikes up to about 30."}
+
+The spike in spring 2020 comes from ridership falling much faster than felonies did.
+After that, the rate moves around but shows no sustained upward trend, even as
+ridership recovers.
+
+![Monthly operational incidents against monthly felonies on the subway. Each point is one month.](/images/projects/nyc-subway-incidents-vs-crime.png){fig-alt="Scatterplot of monthly operational incidents (0 to about 60) against monthly felony counts on the subway (about 85 to 265), one point per month, with a shallow upward linear trend line labeled r = 0.23. The points are widely scattered around the line."}
+
+The trend slopes up, but months with similar incident totals vary widely in crime.
+Breakdowns on their own do not explain much of the subway's crime.
+
+::: {.project-links}
+[Read the full report](https://eda.seas.gwu.edu/showcase/2025-Fall/nyc-subway-crime.html){.btn .btn-sm .btn-outline-primary}
+:::

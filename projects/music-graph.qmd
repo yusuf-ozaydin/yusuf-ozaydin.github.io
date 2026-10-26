@@ -4,7 +4,7 @@ description: "A Python pipeline that turns a Spotify library into a graph of son
 categories: [Python, Data, "In progress"]
 image: /images/covers/music-graph.svg
 image-alt: "Network graph illustration"
-weight: 2
+weight: 3
 ---
 
 Music Graph is an ongoing personal project: my Spotify library drawn as a graph. Songs

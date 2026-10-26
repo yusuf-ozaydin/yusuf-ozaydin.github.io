@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" role="img" aria-label="Line chart">
+  <rect width="320" height="190" fill="#eef2f7"/>
+  <g stroke="#1e3a5f" stroke-width="1" opacity="0.15">
+    <line x1="40" y1="50" x2="290" y2="50"/>
+    <line x1="40" y1="95" x2="290" y2="95"/>
+    <line x1="40" y1="140" x2="290" y2="140"/>
+  </g>
+  <line x1="40" y1="155" x2="290" y2="155" stroke="#1e3a5f" stroke-width="2" opacity="0.3"/>
+  <polyline points="40,62 62,48 84,40 106,112 128,104 150,82 172,70 194,58 216,66 238,46 260,60 282,54" fill="none" stroke="#1e3a5f" stroke-width="3" stroke-linejoin="round" opacity="0.6"/>
+  <polyline points="40,118 62,110 84,104 106,130 128,124 150,114 172,108 194,112 216,100 238,106 260,98 282,102" fill="none" stroke="#1e3a5f" stroke-width="3" stroke-linejoin="round" opacity="0.3"/>
+</svg>

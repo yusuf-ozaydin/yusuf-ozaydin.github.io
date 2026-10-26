@@ -77,8 +77,9 @@ Last synced 26 October 2026.
   <div class="cv-sub">Course project, GW</div>
   <ul>
     <li>Four-person team project for Exploratory Data Analysis (Prof. John Helveston) testing whether the New York City subway is as unsafe as its reputation, using six public MTA, NYPD, and NYC Open Data datasets analyzed in R.</li>
-    <li>Cleaned and reshaped NYPD's 2000–2024 citywide felony table and the MTA's monthly transit felony data with the tidyverse, and built the two ggplot2 charts comparing them: the subway's mix of offenses mirrors the city's, at a small fraction of the volume.</li>
-    <li>As a team, normalized transit crime by ridership, mapped shootings within 40 meters of each station in Leaflet, and found only a weak link between service incidents and felonies (r = 0.23).</li>
+    <li>Normalized MTA felony counts by ridership and built a ggplot2 chart of crime per million riders, showing that the 2020 spike came from ridership collapsing faster than crime fell.</li>
+    <li>Joined monthly signal, track, and subway-car incidents to monthly subway felony counts and fit a linear trend in ggplot2, finding only a weak link between service breakdowns and crime (r = 0.23).</li>
+    <li>As a team, compared subway crime with citywide crime and traffic crashes, and mapped shootings within 40 meters of each station in Leaflet.</li>
   </ul>
 <div class="project-links">
   <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://eda.seas.gwu.edu/showcase/2025-Fall/nyc-subway-crime.html">Report</a>
