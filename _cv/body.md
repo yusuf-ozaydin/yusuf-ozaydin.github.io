@@ -73,6 +73,19 @@ Last synced 26 October 2026.
 </div>
 
 <div class="cv-entry">
+  <div class="cv-head"><span>NYC Subway Safety Analysis</span><span class="cv-dates">Fall 2025</span></div>
+  <div class="cv-sub">Course project, GW</div>
+  <ul>
+    <li>Four-person team project for Exploratory Data Analysis (Prof. John Helveston) testing whether the New York City subway is as unsafe as its reputation, using six public MTA, NYPD, and NYC Open Data datasets analyzed in R.</li>
+    <li>Cleaned and reshaped NYPD's 2000–2024 citywide felony table and the MTA's monthly transit felony data with the tidyverse, and built the two ggplot2 charts comparing them: the subway's mix of offenses mirrors the city's, at a small fraction of the volume.</li>
+    <li>As a team, normalized transit crime by ridership, mapped shootings within 40 meters of each station in Leaflet, and found only a weak link between service incidents and felonies (r = 0.23).</li>
+  </ul>
+<div class="project-links">
+  <a class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer" href="https://eda.seas.gwu.edu/showcase/2025-Fall/nyc-subway-crime.html">Report</a>
+</div>
+</div>
+
+<div class="cv-entry">
   <div class="cv-head"><span>Music Graph</span><span class="cv-dates">June 2026 - Present</span></div>
   <div class="cv-sub">Personal project</div>
   <ul>
@@ -112,7 +125,7 @@ Last synced 26 October 2026.
 
 ## Skills
 
-<p><strong>Programming:</strong> Java, Python (pandas, NumPy, Matplotlib), R (proficient); C, JavaScript, HTML/CSS (familiar)</p>
+<p><strong>Programming:</strong> Java, Python (pandas, NumPy, Matplotlib), R (tidyverse, ggplot2; proficient); C, JavaScript, HTML/CSS (familiar)</p>
 <p><strong>Tools:</strong> Git/GitHub, Quarto, Playwright, Excel, Adobe Illustrator and Photoshop, RobotC</p>
 <p><strong>Methods:</strong> Operations research and optimization, graph theory, statistical modeling, software design principles, human-centered design</p>
 <p><strong>Learning:</strong> SQL and databases (LinkedIn Learning: SQL Essential Training), Gurobi, LaTeX, Docker</p>
