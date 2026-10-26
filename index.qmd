@@ -53,6 +53,12 @@ replaced it, wrote the supporting
 and ran the interface through a WCAG accessibility audit. It is still in active
 development.
 
+In a fall 2025 course on exploratory data analysis, my team tested whether the
+[New York City subway](projects/nyc-subway.qmd) is as dangerous as its reputation,
+using public MTA and NYPD data in R. My part was the two charts that changed the
+picture most: crime per million riders instead of raw counts, and whether
+breakdown-heavy months are also high-crime months (barely, r = 0.23).
+
 Smaller things fill the rest of my time.
 [Music Graph](projects/music-graph.qmd) turns my Spotify library into a network of songs
 connected by shared artists and playlists. [Lift Log](projects/lift-log.qmd) is a
